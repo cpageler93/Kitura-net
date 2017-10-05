@@ -19,8 +19,8 @@ import PackageDescription
 let package = Package(
     name: "Kitura-net",
     targets: [
-        Target(name: "KituraNet", dependencies: ["CHTTPParser"]),
-        Target(name: "CHTTPParser", dependencies: [])
+        Target(name: "KituraNet", dependencies: ["CHTTP"]),
+        Target(name: "CHTTP", dependencies: [])
     ],
     dependencies: [
         .Package(url: "https://github.com/IBM-Swift/LoggerAPI.git", majorVersion: 1, minor: 7),

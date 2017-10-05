@@ -14,10 +14,10 @@
  * limitations under the License.
  **/
 
-#ifndef CHTTPParser_h
-#define CHTTPParser_h
+#ifndef CHTTP_h
+#define CHTTP_h
 
 #include "http_parser.h"
 #include "utils.h"
 
-#endif /* CHTTPParser_h */
+#endif /* CHTTP_h */

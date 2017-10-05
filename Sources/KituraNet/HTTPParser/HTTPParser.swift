@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import CHTTPParser
+import CHTTP
 import Foundation
 
 // MARK: HTTPParser
